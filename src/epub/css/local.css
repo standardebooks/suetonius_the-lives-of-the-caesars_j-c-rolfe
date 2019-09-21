@@ -1,2 +1,55 @@
 @charset "utf-8";
 @namespace epub "http://www.idpf.org/2007/ops";
+
+/* this is here to regularise the appearance of the */
+/* many lower-case instances of roman numerals in the endnotes */
+[epub|type~="z3998:roman"]{
+	text-transform: uppercase;
+}
+
+i em{
+	font-style: normal;
+}
+
+[epub|type~="z3998:verse"] p{
+	text-align: left;
+	text-indent: 0;
+}
+
+[epub|type~="z3998:verse"] p > span{
+	display: block;
+	text-indent: -1em;
+	padding-left: 1em;
+}
+
+[epub|type~="z3998:verse"] p > span + br{
+	display: none;
+}
+
+[epub|type~="z3998:verse"] p + p{
+	margin-top: 1em;
+}
+
+[epub|type~="z3998:verse"] + p{
+	text-indent: 0;
+}
+
+p span.i1{
+	text-indent: -1em;
+	padding-left: 2em;
+}
+
+p span.i2{
+	text-indent: -1em;
+	padding-left: 3em;
+}
+
+ol.roman{
+	list-style-type: upper-roman;
+	list-style-position: inside;
+}
+
+ol.roman li{
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
