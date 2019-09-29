@@ -29,48 +29,54 @@
 		<link href="onix.xml" media-type="application/xml" properties="onix" rel="record"/>
 		<dc:title id="title">The Lives of the Caesars</dc:title>
 		<meta property="file-as" refines="#title">Lives of the Caesars, The</meta>
-		<dc:subject id="subject-1">SUBJECT_1</dc:subject>
-		<dc:subject id="subject-2">SUBJECT_2</dc:subject>
+		<dc:subject id="subject-1">Rome -- History -- Empire, 30 B.C.-284 A.D.</dc:subject>
+		<dc:subject id="subject-2">Emperors -- Rome -- Biography -- Early works to 1800</dc:subject>
 		<meta property="authority" refines="#subject-1">LCSH</meta>
-		<meta property="term" refines="#subject-1">LCSH_ID_1</meta>
+		<meta property="term" refines="#subject-1">sh85115127</meta>
 		<meta property="authority" refines="#subject-2">LCSH</meta>
-		<meta property="term" refines="#subject-2">LCSH_ID_2</meta>
-		<meta property="se:subject">TAG</meta>
-		<dc:description id="description">DESCRIPTION</dc:description>
+		<meta property="term" refines="#subject-2">sh2008103003</meta>
+		<meta property="se:subject">Nonfiction</meta>
+		<dc:description id="description">The lives of the twelve emperors called Caesar are described in detail by a near-contemporary Roman historian.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			LONG_DESCRIPTION
+			&lt;p&gt;Suetonius was a Roman historian born in about 69 AD, shortly after the death of the emperor Nero. This book, detailing the lives of the twelve Roman emperors who were known as ‘Caesar’, some by a family connection to Julius Caesar, some just as a courtesy title, is considered to be Suetonius’ most important work.&lt;/p&gt;
+			&lt;p&gt;&lt;i&gt;The Lives of the Caesars&lt;/i&gt; is a detailed account of the often dramatic lives of these emperors, whose abilities and morals varied enormously, from the capable, stable Augustus to the insane Caligula. Several of these men died violently either by their own hand or murdered by assassins. Suetonius, though, is careful to give credit where it is due, outlining the better actions and laws of each alongside an account of the crimes and immoralities they also carried out.&lt;/p&gt;
+			&lt;p&gt;This turbulent period of Roman history has often been depicted in fiction and in media, drawing on the work of Suetonius and other contemporary historians. For example, Robert Graves’ novel &lt;i&gt;I, Claudius&lt;/i&gt; (1934), which was made into a highly-controversial television series by the BBC in 1976.&lt;/p&gt;
 		</meta>
-		<dc:language>LANG</dc:language>
-		<dc:source>PG_URL</dc:source>
-		<meta property="se:production-notes">Any special notes about the production of this ebook for future editors/producers? Remove this element if not.</meta>
+		<dc:language>en-GB</dc:language>
+		<dc:source>http://penelope.uchicago.edu/Thayer/E/Roman/Texts/Suetonius/12Caesars/home.html</dc:source>
+		<dc:source>https://archive.org/details/L031SuetoniusTheLivesOfTheCaesarsI</dc:source>
+		<dc:source>https://archive.org/details/L038SuetoniusTheLivesOfTheCaesarsII</dc:source>
+		<meta property="se:production-notes">Footnotes were originally printed at the end of each Life, but are now consolidated into a single endnotes file. For reference, here are the note numbers for each individual: Julius: 1-79; Augustus: 80-241; Tiberius: 242-343; Caligula: 344-453; Claudius: 454-565; Nero: 566-726; Galba: 727-780; Otho: 781-798; Vitellius: 799-826; Vespasian: 827-875; Titus: 876-891; Domitian: 892-967. Also note that abbreviations of author names and titles of works have been, wherever possible, expanded, eg: Tac. Ann. has been changed to Tacitus, Annals.</meta>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/The_Lives_of_the_Caesars</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/suetonius_the-lives-of-the-caesars_j-c-rolfe</meta>
 		<dc:creator id="author">Suetonius</dc:creator>
-		<meta property="file-as" refines="#author">AUTHOR_SORT</meta>
-		<meta property="se:name.person.full-name" refines="#author">AUTHOR_FULL_NAME</meta>
+		<meta property="file-as" refines="#author">Suetonius</meta>
+		<meta property="se:name.person.full-name" refines="#author">Gaius Suetonius Tranquillus</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Suetonius</meta>
-		<meta property="se:url.authority.nacoaf" refines="#author">AUTHOR_NACOAF_URL</meta>
+		<meta property="se:url.authority.nacoaf" refines="#author">https://id.loc.gov/authorities/names/n50053072</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<dc:contributor id="translator">J. C. Rolfe</dc:contributor>
-		<meta property="file-as" refines="#translator">TRANSLATOR_SORT</meta>
+		<meta property="file-as" refines="#translator">Rolfe, J. C.</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#translator">https://en.wikipedia.org/wiki/J._C._Rolfe</meta>
-		<meta property="se:url.authority.nacoaf" refines="#translator">TRANSLATOR_NACOAF_URL</meta>
+		<meta property="se:url.authority.nacoaf" refines="#translator">https://id.loc.gov/authorities/names/n86852297</meta>
 		<meta property="display-seq" refines="#translator">1</meta>
+		<meta property="role" refines="#translator" scheme="marc:relators">ann</meta>
 		<meta property="role" refines="#translator" scheme="marc:relators">trl</meta>
-		<dc:contributor id="artist">COVER_ARTIST</dc:contributor>
-		<meta property="file-as" refines="#artist">COVER_ARTIST_SORT</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">COVER_ARTIST_WIKI_URL</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">COVER_ARTIST_NACOAF_URL</meta>
+		<dc:contributor id="artist">Lawrence Alma-Tadema</dc:contributor>
+		<meta property="file-as" refines="#artist">Alma-Tadema, Lawrence</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Lawrence_Alma-Tadema</meta>
+		<meta property="se:url.authority.nacoaf" refines="#artist">https://id.loc.gov/authorities/names/n79060123</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
-		<dc:contributor id="transcriber-1">TRANSCRIBER</dc:contributor>
-		<meta property="file-as" refines="#transcriber-1">TRANSCRIBER_SORT</meta>
-		<meta property="se:url.homepage" refines="#transcriber-1">TRANSCRIBER_URL</meta>
+		<dc:contributor id="transcriber-1">Bill Thayer</dc:contributor>
+		<meta property="file-as" refines="#transcriber-1">Thayer, Bill</meta>
+		<meta property="se:url.homepage" refines="#transcriber-1">http://penelope.uchicago.edu/Thayer/E/home.html</meta>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
-		<dc:contributor id="producer-1">PRODUCER</dc:contributor>
-		<meta property="file-as" refines="#producer-1">PRODUCER_SORT</meta>
-		<meta property="se:url.homepage" refines="#producer-1">PRODUCER_URL</meta>
+		<dc:contributor id="producer-1">David Grigg</dc:contributor>
+		<meta property="file-as" refines="#producer-1">Grigg, David</meta>
+		<meta property="se:url.homepage" refines="#producer-1">https://rightword.com.au/david.php</meta>
+		<meta property="role" refines="#producer-1" scheme="marc:relators">ann</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">cov</meta>
@@ -85,7 +91,16 @@
 		<item href="images/cover.svg" id="cover.svg" media-type="image/svg+xml" properties="cover-image"/>
 		<item href="images/logo.svg" id="logo.svg" media-type="image/svg+xml"/>
 		<item href="images/titlepage.svg" id="titlepage.svg" media-type="image/svg+xml"/>
+		<item href="text/book-1.xhtml" id="book-1.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/book-2.xhtml" id="book-2.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/book-3.xhtml" id="book-3.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/book-4.xhtml" id="book-4.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/book-5.xhtml" id="book-5.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/book-6.xhtml" id="book-6.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/book-7.xhtml" id="book-7.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/book-8.xhtml" id="book-8.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/colophon.xhtml" id="colophon.xhtml" media-type="application/xhtml+xml" properties="svg"/>
+		<item href="text/endnotes.xhtml" id="endnotes.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/imprint.xhtml" id="imprint.xhtml" media-type="application/xhtml+xml" properties="svg"/>
 		<item href="text/titlepage.xhtml" id="titlepage.xhtml" media-type="application/xhtml+xml" properties="svg"/>
 		<item href="text/uncopyright.xhtml" id="uncopyright.xhtml" media-type="application/xhtml+xml"/>
@@ -93,6 +108,15 @@
 	<spine>
 		<itemref idref="titlepage.xhtml"/>
 		<itemref idref="imprint.xhtml"/>
+		<itemref idref="book-1.xhtml"/>
+		<itemref idref="book-2.xhtml"/>
+		<itemref idref="book-3.xhtml"/>
+		<itemref idref="book-4.xhtml"/>
+		<itemref idref="book-5.xhtml"/>
+		<itemref idref="book-6.xhtml"/>
+		<itemref idref="book-7.xhtml"/>
+		<itemref idref="book-8.xhtml"/>
+		<itemref idref="endnotes.xhtml"/>
 		<itemref idref="colophon.xhtml"/>
 		<itemref idref="uncopyright.xhtml"/>
 	</spine>
