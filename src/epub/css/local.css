@@ -33,13 +33,10 @@ span[epub|type~="subtitle"]{
 	font-weight: normal;
 }
 
-ol.roman{
-	list-style-type: upper-roman;
-	list-style-position: inside;
+section[epub|type~="chapter"] > ol > li p:first-child{
+	text-indent: 1em;
 }
 
-ol.roman li{
-	margin-left: 0;
-	margin-top: 0.5em;
-	margin-bottom: 0.5em;
+section[epub|type~="chapter"] > ol > li:first-of-type p{
+	text-indent: 0;
 }
