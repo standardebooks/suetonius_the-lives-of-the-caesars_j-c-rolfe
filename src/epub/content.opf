@@ -2,8 +2,8 @@
 <package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">url:https://standardebooks.org/ebooks/suetonius/the-lives-of-the-caesars/j-c-rolfe</dc:identifier>
-		<dc:date>1900-01-01T00:00:00Z</dc:date>
-		<meta property="dcterms:modified">1900-01-01T00:00:00Z</meta>
+		<dc:date>2019-10-25T21:06:16Z</dc:date>
+		<meta property="dcterms:modified">2019-10-25T21:06:16Z</meta>
 		<dc:rights>The source text and artwork in this ebook edition are believed to be in the U.S. public domain. This ebook edition is released under the terms in the CC0 1.0 Universal Public Domain Dedication, available at https://creativecommons.org/publicdomain/zero/1.0/. For full license information see the Uncopyright file included at the end of this ebook.</dc:rights>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
@@ -38,8 +38,8 @@
 		<meta property="se:subject">Nonfiction</meta>
 		<dc:description id="description">The lives of the twelve emperors called Caesar are described in detail by a near-contemporary Roman historian.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			&lt;p&gt;Suetonius was a Roman historian born in about 69 AD, shortly after the death of the emperor Nero. This book, detailing the lives of the twelve Roman emperors who were known as “Caesar,” some by a family connection to Julius Caesar, some just as a courtesy title, is considered to be Suetonius’ most important work.&lt;/p&gt;
-			&lt;p&gt;&lt;i&gt;The Lives of the Caesars&lt;/i&gt; is a detailed account of the often dramatic lives of these emperors, whose abilities and morals varied enormously, from the capable, stable Augustus to the insane Caligula. Several of these men died violently either by their own hand or murdered by assassins. Suetonius, though, is careful to give credit where it is due, outlining the better actions and laws of each alongside an account of the crimes and immoralities they also carried out.&lt;/p&gt;
+			&lt;p&gt;Suetonius was a Roman historian born in about 69 AD, shortly after the death of the emperor Nero. This book, detailing the lives of the twelve Roman emperors who were known as “Caesar”—some by a family connection to Julius Caesar, some just as a title—is considered to be Suetonius’ most important work.&lt;/p&gt;
+			&lt;p&gt;&lt;i&gt;The Lives of the Caesars&lt;/i&gt; is a detailed account of the often dramatic lives of these emperors, whose abilities and morals varied enormously; from the capable, stable Augustus, to the insane Caligula. Several of these men died violently either by their own hand or by assassins. Suetonius, though, is careful to give credit where it is due, outlining the better actions and laws of each alongside an account of the crimes and immoralities they also carried out.&lt;/p&gt;
 			&lt;p&gt;This turbulent period of Roman history has often been depicted in fiction and in media, drawing on the work of Suetonius and other contemporary historians. For example, Robert Graves’ novel &lt;i&gt;I, Claudius&lt;/i&gt; (1934), which was made into a highly-controversial television series by the BBC in 1976.&lt;/p&gt;
 		</meta>
 		<dc:language>en-GB</dc:language>
@@ -47,8 +47,8 @@
 		<dc:source>https://archive.org/details/L031SuetoniusTheLivesOfTheCaesarsI</dc:source>
 		<dc:source>https://archive.org/details/L038SuetoniusTheLivesOfTheCaesarsII</dc:source>
 		<meta property="se:production-notes">Footnotes were originally printed at the end of each Life, but are now consolidated into a single endnotes file. For reference, here are the note numbers for each individual: Julius: 1-79; Augustus: 80-241; Tiberius: 242-343; Caligula: 344-453; Claudius: 454-565; Nero: 566-726; Galba: 727-780; Otho: 781-798; Vitellius: 799-826; Vespasian: 827-875; Titus: 876-891; Domitian: 892-967. Also note that abbreviations of author names and titles of works have been, wherever possible, expanded, eg: Tac. Ann. has been changed to Tacitus, Annals.</meta>
-		<meta property="se:word-count">WORD_COUNT</meta>
-		<meta property="se:reading-ease.flesch">READING_EASE</meta>
+		<meta property="se:word-count">125630</meta>
+		<meta property="se:reading-ease.flesch">48.06</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/The_Lives_of_the_Caesars</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/suetonius_the-lives-of-the-caesars_j-c-rolfe</meta>
 		<dc:creator id="author">Suetonius</dc:creator>
@@ -83,6 +83,10 @@
 		<meta property="role" refines="#producer-1" scheme="marc:relators">mrk</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">pfr</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">tyg</meta>
+		<dc:contributor id="producer-2">Alex Cabal</dc:contributor>
+		<meta property="file-as" refines="#producer-2">Cabal, Alex</meta>
+		<meta property="se:url.homepage" refines="#producer-2">https://alexcabal.com</meta>
+		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
 	</metadata>
 	<manifest>
 		<item href="toc.xhtml" id="toc.xhtml" media-type="application/xhtml+xml" properties="nav"/>
