@@ -6,6 +6,12 @@
 			<reason>The book has a unique semantic structure that is not related to poetry.</reason>
 		</ignore>
 	</file>
+	<file path="book-4.xhtml">
+		<ignore>
+			<code>t-043</code>
+			<reason>Matched text is not a dialog tag.</reason>
+		</ignore>
+	</file>
 	<file path="endnotes.xhtml">
 		<ignore>
 			<code>t-010</code>
