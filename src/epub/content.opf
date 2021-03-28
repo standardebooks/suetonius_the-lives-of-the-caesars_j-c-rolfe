@@ -55,19 +55,19 @@
 		<meta property="file-as" refines="#author">Suetonius</meta>
 		<meta property="se:name.person.full-name" refines="#author">Gaius Suetonius Tranquillus</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Suetonius</meta>
-		<meta property="se:url.authority.nacoaf" refines="#author">https://id.loc.gov/authorities/names/n50053072</meta>
+		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n50053072</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<dc:contributor id="translator">J. C. Rolfe</dc:contributor>
 		<meta property="file-as" refines="#translator">Rolfe, J. C.</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#translator">https://en.wikipedia.org/wiki/J._C._Rolfe</meta>
-		<meta property="se:url.authority.nacoaf" refines="#translator">https://id.loc.gov/authorities/names/n86852297</meta>
+		<meta property="se:url.authority.nacoaf" refines="#translator">http://id.loc.gov/authorities/names/n86852297</meta>
 		<meta property="display-seq" refines="#translator">1</meta>
 		<meta property="se:role" refines="#translator" scheme="marc:relators">ann</meta>
 		<meta property="role" refines="#translator" scheme="marc:relators">trl</meta>
 		<dc:contributor id="artist">Lawrence Alma-Tadema</dc:contributor>
 		<meta property="file-as" refines="#artist">Alma-Tadema, Lawrence</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Lawrence_Alma-Tadema</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">https://id.loc.gov/authorities/names/n79060123</meta>
+		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/n79060123</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="transcriber-1">Bill Thayer</dc:contributor>
 		<meta property="file-as" refines="#transcriber-1">Thayer, Bill</meta>
