@@ -47,7 +47,7 @@
 		<dc:source>https://archive.org/details/L038SuetoniusTheLivesOfTheCaesarsII</dc:source>
 		<meta property="se:production-notes">Footnotes were originally printed at the end of each Life, but are now consolidated into a single endnotes file. For reference, here are the note numbers for each individual: Julius: 1-79; Augustus: 80-241; Tiberius: 242-343; Caligula: 344-453; Claudius: 454-565; Nero: 566-726; Galba: 727-780; Otho: 781-798; Vitellius: 799-826; Vespasian: 827-875; Titus: 876-891; Domitian: 892-967. Also note that abbreviations of author names and titles of works have been, wherever possible, expanded, eg: Tac. Ann. has been changed to Tacitus, Annals.</meta>
 		<meta property="se:word-count">125630</meta>
-		<meta property="se:reading-ease.flesch">48.06</meta>
+		<meta property="se:reading-ease.flesch">48.17</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/The_Lives_of_the_Caesars</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/suetonius_the-lives-of-the-caesars_j-c-rolfe</meta>
 		<dc:creator id="author">Suetonius</dc:creator>
