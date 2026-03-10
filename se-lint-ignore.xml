@@ -7,11 +7,16 @@
 	</file>
 	<file path="book-4.xhtml">
 		<ignore code="y-031">
+			<line>301</line>
 			<reason>Matched text is not a dialog tag.</reason>
 		</ignore>
 	</file>
 	<file path="endnotes.xhtml">
 		<ignore code="t-010">
+			<line>940</line>
+			<line>955</line>
+			<line>1600</line>
+			<line>1603</line>
 			<reason>Matched text are not times.</reason>
 		</ignore>
 	</file>
