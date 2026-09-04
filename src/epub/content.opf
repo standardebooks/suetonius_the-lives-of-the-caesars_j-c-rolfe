@@ -30,8 +30,8 @@
 		<meta property="schema:accessibilitySummary">This publication conforms to WCAG 2.2 Level AA.</meta>
 		<dc:title id="title">The Lives of the Caesars</dc:title>
 		<meta property="file-as" refines="#title">Lives of the Caesars, The</meta>
-		<dc:subject id="subject-1">Rome -- History -- Empire, 30 B.C.-284 A.D.</dc:subject>
-		<dc:subject id="subject-2">Emperors -- Rome -- Biography -- Early works to 1800</dc:subject>
+		<dc:subject id="subject-1">Rome--History--Empire, 30 B.C.-284 A.D.</dc:subject>
+		<dc:subject id="subject-2">Emperors--Rome--Biography--Early works to 1800</dc:subject>
 		<meta property="authority" refines="#subject-1">LCSH</meta>
 		<meta property="term" refines="#subject-1">sh85115127</meta>
 		<meta property="authority" refines="#subject-2">LCSH</meta>
